@@ -43,6 +43,7 @@
         background-color: var(--cor0);
         font-family: var(--fonte-padrao);        
     }   
+    
     a[target="_blank"]::after{
         content: '\00A0\1F517';
     }
@@ -68,7 +69,6 @@
         display: inline;
         padding: 0 10px 0 10px;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
-        margin-bottom: 20px;
     }
 
     nav{
