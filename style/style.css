@@ -167,25 +167,7 @@
         height: 90%;
     }
 
-/*
-    main .video{
-        max-width: 120%;
-        padding-top: 58.5%;
-        background-color: var(--cor5);
-        margin: 20px -20px;
-        position: relative;
-        box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.329);
-        
-    }
-    
-    .video > iframe{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        transform: scale(0.92);
-    }
-*/
+
     .pequena{
         display: block;
         max-width: 350px;
@@ -219,6 +201,11 @@
         color: var(--cor1)
     }
     
+    aside a:hover{
+        color: var(--cor1);
+        text-decoration: underline;
+    }
+
     footer{
         background-color: var(--cor5);
         color: white;
